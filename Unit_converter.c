@@ -23,9 +23,22 @@ float mtoYard(float n)
 
 int main()
 {
+    //main menu
+    printf("Unit Convertor\nBy Easymade\n\n\n");
+    printf("Choose a catagory from down below\n1. Length\n");
+    int a; scanf("%d", &a);
+
+    if(a == 1)
+    {
+    //unit convertor(length)
     float n;
     printf("Enter a positive number you want to see the conversions.\nMetre: ");    
-    scanf("%f", &n);          
+    scanf("%f", &n);
+    while(n < 0)
+    {
+        printf("Please enter a positive number.\n");  
+        scanf("%f", &n);
+    }
     float sum1 = mtoFoot(n);
     float sum2 = mtoInch(n);
     float sum3 = mtoMile(n);
@@ -34,6 +47,11 @@ int main()
     printf("Inch: %.2f\n", sum2); 
     printf("Mile: %.2f\n", sum3);
     printf("Yard: %.2f\n", sum4);//printing upto two decimals
+    }
+    else
+    {
+        printf("Try again.");
+    }
     return 0;
 }
 
