@@ -1,5 +1,8 @@
 // just a normal unit conversions (length & Weight)
 #include<stdio.h>
+/*
+    Length conversion functions
+*/
 // Metre to foot
 float mtoFoot(float n)
 {
@@ -20,6 +23,9 @@ float mtoYard(float n)
 {
     return (1.0936133 * n);
 }
+/*
+    Weight conversion functions
+*/
 //Kilogram to Pound
 float kgtoPound(float n)
 {
@@ -44,7 +50,7 @@ int main()
 
     if(a == 1)
     {
-    //length convertor
+    //length conversions
     float n;
     printf("Enter a positive length.\nMetre: ");    
     scanf("%f", &n);
@@ -64,7 +70,7 @@ int main()
     }
     else if(a == 2)
     {
-        //Weight convertor
+        //mass conversions
         float n;
         printf("Please enter a positive weight(kg).\n");  
         scanf("%f", &n);
