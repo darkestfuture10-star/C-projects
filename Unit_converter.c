@@ -57,10 +57,10 @@ int main()
     float sum2 = mtoInch(n);
     float sum3 = mtoMile(n);
     float sum4 = mtoYard(n);
-    printf("Foot: %.2f\n", sum1);
-    printf("Inch: %.2f\n", sum2); 
-    printf("Mile: %.2f\n", sum3);
-    printf("Yard: %.2f\n", sum4);//printing upto two decimals
+    printf("Foot: %.2f ft\n", sum1);
+    printf("Inch: %.2f in\n", sum2); 
+    printf("Mile: %.2f mi\n", sum3);
+    printf("Yard: %.2f yd\n", sum4);//printing upto two decimals
     }
     else if(a == 2)
     {
@@ -70,15 +70,15 @@ int main()
         scanf("%f", &n);
         while(n < 0)
         {
-            printf("Please enter a positive number.\n");  
+            printf("Please enter a positive number.\nKilogram: ");  
             scanf("%f", &n);
         }
         float sum1 = kgtoPound(n);
         float sum2 = kgtoOunce(n);
         float sum3 = kgtoStone(n);
-        printf("Pound: %.2f\n", sum1);
-        printf("Ounce: %.2f\n", sum2);
-        printf("Stone: %.2f\n", sum3);
+        printf("Pound: %.2f lb\n", sum1);
+        printf("Ounce: %.2f oz\n", sum2);
+        printf("Stone: %.2f st\n", sum3);
     }
     
     return 0;
