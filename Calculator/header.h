@@ -4,5 +4,6 @@
 float unitConverter();
 float massConverter();
 float currencyConverter();
+float quadEQ();
 
 #endif

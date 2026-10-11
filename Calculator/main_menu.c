@@ -4,7 +4,7 @@
 int main()
 {
     printf("Welcome to the unit converter...\nBy EasyMade.\n\n\n");
-    printf("Please pick a section from below:\n1. Length\n2. Mass\n3. Currency\n");
+    printf("Please pick a section from below:\n1. Length\n2. Mass\n3. Currency\n4. Quadratic Equation\n");
     int a; scanf("%d", &a);
 
     while(a <= 0 || a > 3)
@@ -20,9 +20,13 @@ int main()
     {
         massConverter();
     }
-    else
+    else if(a == 3)
     {
         currencyConverter();
+    }
+    else
+    {
+        quadEQ();
     }
 
 }
