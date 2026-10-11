@@ -1,5 +1,6 @@
-//Making a simple currency converter
 #include<stdio.h>
+#include "header.h"
+
 //USD to BDT
 float usdtoBDT(float n)
 {
@@ -20,7 +21,8 @@ float usdtoJPY(float n)
 {
     return(158.29 * n);
 }
-int main()
+
+float currencyConverter()
 {
     printf("Please enter a non negative value: ");
     float n; scanf("%f", &n);
