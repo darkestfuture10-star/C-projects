@@ -24,7 +24,7 @@ float usdtoJPY(float n)
 
 float currencyConverter()
 {
-    printf("Please enter a non negative value: ");
+    printf("Please enter a non negative value(in USD): ");
     float n; scanf("%f", &n);
     while(n <= 0)
     {
