@@ -5,5 +5,6 @@ float unitConverter();
 float massConverter();
 float currencyConverter();
 float quadEQ();
+float tempConvert();
 
 #endif
