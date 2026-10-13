@@ -24,7 +24,6 @@ float tempConvert()
     float sum1 = ctoFahrenheit(n);
     float sum2 = ctoKelvin(n);
 
-
     printf("Fahrenheit: %.2f F\n", sum1);
     printf("Kelvin: %.2f K\n", sum2);
 }
