@@ -26,8 +26,6 @@ void oddSeries(int a)
         printf("\n%d", i);
     }
 }
-
-
 void evenodd()
 {
     printf("Pick an option from below.\n1. Even & Odd checker\n2. Even & odd series\n");

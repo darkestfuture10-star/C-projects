@@ -3,6 +3,7 @@
 
 void fibonacci();
 void evenodd();
+void primeNumbers();
 
 
 #endif
